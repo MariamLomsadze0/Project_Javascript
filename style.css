@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  header {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  header .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  header nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .search{
+    padding: 0%;
+    height: 25px;
+    width: 900px;
+  }
+  .header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .sidebar {
+    width: 25%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .sidebar h3 {
+    margin-top: 0;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  .content {
+    width: 75%;
+    margin-left: 20px;
+  }
+  .course-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .course-card h4 {
+    margin: 15px 0 10px;
+  }
+  .course-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  .pagination {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .pagination button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+   footer {
+background-color: #0a0f24;
+color: white;
+width: 100%;
+padding: 20px;
+margin-top: auto;
+display: flex;
+justify-content: space-around;
+}
+
+footer .section {
+max-width: 250px;
+}
+
+footer .section h3 {
+margin-bottom: 10px;
+font-size: 1.2em;
+}
+
+footer .section ul {
+list-style: none;
+padding: 0;
+}
+
+footer .section ul li {
+margin-bottom: 5px;
+}
+
+footer .section ul li a {
+color: white;
+text-decoration: none;
+}
